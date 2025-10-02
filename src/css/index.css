@@ -1,0 +1,29 @@
+/* นำเข้า Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans bg-primaryBg text-primaryBase;
+    margin: 0;
+  }
+}
+
+@keyframes append-animate{
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.arrow{
+  animation: append-animate 0.5s ease-out;
+}
