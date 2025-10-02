@@ -16,7 +16,7 @@ function Introduction() {
         </div>
       <div className="mt-3">
         <a href={Resume} target="_blank">
-          <span className="rounded-md bg-primaryTitle text-primaryBg py-2 px-4">
+          <span className="rounded-md bg-primaryTitle text-white py-2 px-4">
             {IntroList.btnText}
             <span className="rotate-90 inline-block ml-2 text-sm">
               <FontAwesomeIcon icon={faArrowDown} className="animate-bounce" />
